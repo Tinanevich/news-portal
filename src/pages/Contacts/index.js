@@ -3,7 +3,7 @@ import routeMain from './routes';
 import GirlImg from 'assets/img/girl-working.jpg'
 
 const Contacts = () => (
-    <div className='contactsPage'>
+    <section className='contactsPage'>
         <div className='info'>
             <div className='phone'>
                 <a href='tel:+375336005475'>+ 375 (33) 600 54 75</a>
@@ -23,8 +23,8 @@ const Contacts = () => (
         </div>
         <div className='image'>
                 <img src={GirlImg} alt={GirlImg}/>
-            </div>
-    </div>
+        </div>
+    </section>
 )
 
 export {routeMain};
