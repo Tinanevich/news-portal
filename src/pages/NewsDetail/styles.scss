@@ -1,5 +1,5 @@
-.NewsDetail {
-    .NewsDetailWrapper {
+.newsDetailPage {
+    .newsDetailWrapper {
         display: flex;
         .leftPart {
             width: 30%;
@@ -9,7 +9,7 @@
             padding-left: 30px;
         }
         .title {
-            font-size: 60px;
+            font-size: 40px;
             margin: 0;
             margin-bottom: 30px;
             font-weight: 400;
@@ -27,6 +27,7 @@
         .summary {
             font-size: 25px;
             margin: 0;
+            max-width: 730px;
         }
     }
 }

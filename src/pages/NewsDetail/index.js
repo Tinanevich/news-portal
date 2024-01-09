@@ -25,7 +25,7 @@ const NewsDetail = () => {
                         <DateView value={news.published_date}/>
                     </div>
                     <div className='rightPart'>
-                        <img src={news.link} alt={news.link}/>
+                        <img src={news.media} alt={news.media}/>
                         <p className='summary'>{news.summary}</p>
                     </div>
                 </div>
