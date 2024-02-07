@@ -1,6 +1,8 @@
 import axios, {AxiosResponse, AxiosRequestConfig} from "axios";
+import { INews } from "types/INews";
 
-const getNews = (): Promise<AxiosResponse> => {
+
+const getNews = (): Promise<AxiosResponse<INews>> => {
   const options: AxiosRequestConfig = {
     method: 'GET',
     url: 'https://free-news.p.rapidapi.com/v1/search',
